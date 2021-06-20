@@ -9,12 +9,71 @@
 </head>
 <body>
   <div class="container">
-    <h1 class="center">Programming Language Suggester</h1>
 
-    <form id ="survey">
+    <div class="center">
+      <h1>Programming Language Suggester</h1>
+
+      <h5>Answer the following five survey questions and press the <strong>Submit</strong> button to find out which programming language you should learn first.</h5>
+    </div>
+
+    <form id="survey">
+
+      <div>
+        <h4>How many hours per day are you willing to spend learning?</h4> 
+        <select class="form-control" id="hours">
+          <option>Select an answer</option>
+          <option>1 hour</option>
+          <option>2 hours</option>
+          <option>3 hours</option>
+        </select>
+      </div>
   
-    </form>
-    
+      <div>
+        <h4>How many months are you willing to spend learning?</h4> 
+        <select class="form-control" id="months">
+          <option>Select an answer</option>
+          <option>3 months</option>
+          <option>6 months</option>
+          <option>9 months</option>
+        </select>
+      </div>
+  
+      <div>
+        <h4>How many months experience do you have with programming?</h4> 
+        <select class="form-control" id="experience">
+          <option>Select an answer</option>
+          <option>0 months</option>
+          <option>1-2 months</option>
+          <option>2-4 months</option>
+        </select>
+      </div>
+  
+      <div>
+        <h4>Why are you looking to learn a programming language?</h4> 
+        <select class="form-control" id="reason">
+          <option>Select an answer</option>
+          <option>To land my first job in programming</option>
+          <option>To professionaly advance in my current career</option>
+          <option>Just for the joy of it</option>
+        </select>
+      </div>
+  
+      <div>
+        <h4>Would you prefer to own a dog, cat or goldfish?</h4> 
+        <select class="form-control" id="pet">
+          <option>Select an answer</option>
+          <option>dog</option>
+          <option>cat</option>
+          <option>goldfish</option>
+        </select>
+      </div>
+   
+      <div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </div>
+
+    </form> 
+
   </div> 
 </body>
 </html>

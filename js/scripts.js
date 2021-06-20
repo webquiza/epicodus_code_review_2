@@ -3,6 +3,10 @@ $(document).ready(function() {
     e.preventDefault();
 
     const hours = $("#hours").val();
+    const months = $("#months").val();
+    const experience = $("#experience").val();
+    const reason = $("#reason").val();
+    const pet = $("#pet").val();
 
     // Declare initial variables equal to zero 
 

@@ -1,6 +1,6 @@
 # _Programming Language Selector_
 
-#### _._
+#### _A simple interface to help people choose which programming language to learn first._
 
 #### By _**Carlos Urquiza**_
 
@@ -15,7 +15,7 @@
 
 ## Description
 
-_._
+_This program makes suggestions on which programming language to learn first. It does so by asking the user to answer a series of questions. Based on their answers, the application will suggest to either learn JavaScript, Python or C#._
 
 ## Setup/Installation Requirements
 
@@ -27,7 +27,7 @@ _._
 * _Type `git clone` and paste the URL you copied._
 * _Press Enter._
 * _Navigate to the project folder on your computer and open the `index.html` file to view the webpage._
-* _Alternatively, you can view the live webpage via this [GitHub Page]()._
+* _Alternatively, you can view the live webpage via this [GitHub Page](https://webquiza.github.io/epicodus_code_review_2/)._
 
 ## Known Bugs
 

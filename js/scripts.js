@@ -30,35 +30,35 @@ $(document).ready(function() {
       cSharpScore += 1;
     } 
 
-       // Branching logic for experience id
+    // Branching logic for experience id
 
-       if (experience === "one") {
-        javascriptScore += 1;
-      } else if (experience === "two") {
-        pythonScore += 1;
-      } else if (experience === "three") {
-        cSharpScore += 1;
-      } 
-  
-      // Branching logic for reason id
-  
-      if (reason === "one") {
-        javascriptScore += 1;
-      } else if (reason === "two") {
-        pythonScore += 1;
-      } else if (reason === "three") {
-        cSharpScore += 1;
-      } 
-  
-      // Branching logic for pet id
-  
-      if (pet === "one") {
-        javascriptScore += 1;
-      } else if (pet === "two") {
-        pythonScore += 1;
-      } else if (pet === "three") {
-        cSharpScore += 1;
-      } 
+    if (experience === "one") {
+      javascriptScore += 1;
+    } else if (experience === "two") {
+      pythonScore += 1;
+    } else if (experience === "three") {
+      cSharpScore += 1;
+    } 
+
+    // Branching logic for reason id
+
+    if (reason === "one") {
+      javascriptScore += 1;
+    } else if (reason === "two") {
+      pythonScore += 1;
+    } else if (reason === "three") {
+      cSharpScore += 1;
+    } 
+
+    // Branching logic for pet id
+
+    if (pet === "one") {
+      javascriptScore += 1;
+    } else if (pet === "two") {
+      pythonScore += 1;
+    } else if (pet === "three") {
+      cSharpScore += 1;
+    } 
 
     // Branching logic that provides language suggestion to user
 

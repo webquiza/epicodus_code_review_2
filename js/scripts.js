@@ -73,7 +73,7 @@ $(document).ready(function() {
     } else if (cSharpScore > javascriptScore && cSharpScore > pythonScore) {
       $("#suggested-language").text("You should learn C#");
     } else {
-      $("#suggested-language").text("Hmm... Something is not adding up here. Don't forget to select an answer for each question!");
+      $("#suggested-language").text("Hmm... Something is not adding up here. Please try again!");
     }
 
     $("#output").show();
